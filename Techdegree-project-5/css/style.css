@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 25px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 7px;
+  width: 500px;
+  margin-bottom: 25px;
+  font-size: 15px;
+  
+}
+
+input::placeholder {
+  font-size: 15px;
+}
+
+#search:hover {
+  border-color: red;
+}
+
+.container {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(4, minmax(200px, max-content));
+  grid-template-rows: 200px;
+  grid-gap: 30px;
+  max-width: 1000px;
+  justify-content: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+}
+
+.container img {
+  height: auto;
+  width: 100%;
+}

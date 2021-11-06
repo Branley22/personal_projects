@@ -1,0 +1,49 @@
+html {
+   background-color: silver;
+   text-align: center;
+}
+
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: green;
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.input {
+    font-size: 25px;
+    color: blue;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 50px auto;
+    background-color: white;
+}
+
+table, th, td {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+th {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial;
+    color: blue;
+}
+
+td {
+    font-size: 25px;
+    color: blue;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}

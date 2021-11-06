@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.sequence {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0;
+}
+
+body {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+i,
+svg {
+  pointer-events: none;
+}
+
+.kick-pad,
+.snare-pad,
+.hihat-pad {
+  width: 5em;
+  height: 5em;
+  margin: 1em 0.5em;
+  cursor: pointer;
+}
+
+.kick-pad {
+  background: rgb(166, 206, 223);
+}
+
+.snare-pad {
+  background: rgb(172, 109, 109);
+}
+
+.hihat-pad {
+  background: rgb(250, 212, 162);
+}
+
+.kick-pad.active {
+  background: rgb(24, 170, 228);
+}
+
+.snare-pad.active {
+  background: rgb(146, 7, 7);
+}
+
+.hihat-pad.active {
+  background: rgb(230, 149, 43);
+}
+
+.kick-track,
+.snare-track,
+.hihat-track {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 5em;
+}
+
+.kick {
+  margin-left: 2em;
+}
+
+.kick,
+.snare,
+.hihat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 2em;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em 3em;
+  gap: 3em;
+}
+
+.controls button {
+  padding: 1em;
+  border: none;
+  background: darkgray;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.pad {
+  transition: all 0.5s ease;
+}
+
+.play {
+  padding: 1em 2em;
+  font-size: 1.5em;
+  background: darkgray;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 2em;
+  margin-right: 40em;
+}
+
+select {
+  padding: 1em;
+  font-size: 1em;
+}
+
+.mute.active {
+  background: rgb(85, 84, 84);
+}
+
+.tempo {
+  margin: 3em;
+  width: 30%;
+}
+
+.tempo-slider {
+  -webkit-appearance: none;
+  padding: 0.3em;
+  margin: 1em 0em;
+  position: relative;
+  background: #00438b;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 1em;
+}
+
+.tempo p {
+  font-size: 1.5em;
+  margin: 2em;
+  text-align: center;
+}
+
+@keyframes playTrack {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
