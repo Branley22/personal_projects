@@ -3,17 +3,17 @@ import About from '../components/About';
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
 
-const Header = ()=> {
+const Header = (props)=> {
   return (
-    <div className="header">
+    <header className="header">
       <h1 className="name">Valerie Mendez</h1>
-      <h2 className="title">Graphic Designer2</h2>
+      <h2 className="title">{props.title}</h2>
       <div className="sections">
         <About/>
         <Projects/>
         <Contact/>
       </div>
-    </div>
+    </header>
   )
 }
 export default Header;
