@@ -52,9 +52,9 @@
   }
 }
 
-/* @media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
   .right-side button {
     display: none;
   }
-} */
+}
 

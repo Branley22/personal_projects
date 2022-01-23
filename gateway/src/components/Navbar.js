@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../assets/gateway-logo.png';
 import { Link } from 'react-router-dom';
+import ReorderIcon from '@mui/icons-material/Reorder';
 import '../styles/Navbar.css';
 
 const Navbar = (props) => {
@@ -16,6 +17,9 @@ const Navbar = (props) => {
         <Link to="/popular-tours">Popular Tours</Link>
         <Link to="/stories">Stories</Link>
         <Link to="/book-now">Book Now</Link>
+        <button>
+          <ReorderIcon />
+        </button>
       </div>
     </div>
   )
