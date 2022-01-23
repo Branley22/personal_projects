@@ -1,0 +1,60 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(32, 60, 97);
+}
+
+.left-side {
+  flex: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 150px;
+}
+
+.left-side img {
+  width: 70px;
+}
+
+.right-side {
+  flex: 50%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  padding: 10px
+}
+
+@media only screen and (max-width: 900px) {
+  .rightside a {
+    width: 70px;
+  }
+  .left-side {
+    padding-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .right-side a {
+    display: none;
+  }
+  .right-side {
+    justify-content: flex-end;
+    padding-right: 50px;
+  }
+}
+
+/* @media only screen and (min-width: 600px) {
+  .right-side button {
+    display: none;
+  }
+} */
+
