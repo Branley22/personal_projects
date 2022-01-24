@@ -6,7 +6,7 @@
   background-color: rgb(32, 60, 97);
 }
 
-.left-side {
+.navbar .left-side {
   flex: 50%;
   height: 100%;
   display: flex;
@@ -14,11 +14,11 @@
   padding-left: 150px;
 }
 
-.left-side img {
+.navbar .left-side img {
   width: 70px;
 }
 
-.right-side {
+.navbar .right-side {
   flex: 50%;
   height: 100px;
   display: flex;
@@ -29,31 +29,75 @@
 .navbar a {
   color: white;
   text-decoration: none;
+  margin: 10px;
+}
+
+.navbar .right-side button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar .right-side svg {
+  font-size: 40px;
+}
+
+.navbar #open {
+  padding-left: 0px;
+}
+
+.navbar #open img {
+  display: none;
+}
+
+.navbar #close img {
+  display: inherit;
+}
+
+.navbar #open .hidden-links {
+  display: inherit;
+  margin-left: 30px;
+}
+
+.navbar #close .hidden-links {
+  display: none;
+}
+
+.navbar #open a {
+  width: 70px;
   margin: 5px;
-  padding: 10px
 }
 
 @media only screen and (max-width: 900px) {
-  .rightside a {
+  .navbar .right-side a {
     width: 70px;
   }
-  .left-side {
+  .navbar .left-side {
     padding-left: 50px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .right-side a {
+  .navbar .right-side a {
     display: none;
   }
-  .right-side {
+  .navbar .right-side {
     justify-content: flex-end;
     padding-right: 50px;
+  }
+
+  .navbar .right-side button {
+    display: inherit;
   }
 }
 
 @media only screen and (min-width: 600px) {
   .right-side button {
+    display: none;
+  }
+
+  .hidden-links {
     display: none;
   }
 }
