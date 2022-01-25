@@ -19,20 +19,16 @@ const Navbar = (props) => {
         <img src={Logo} alt="pic of logo"/>
         <div className="hidden-links">
           <Link to="/">Home</Link>
-          <Link to="/about-gateway">About Gateway</Link>
-          <Link to="/your-benefits">Your Benefits</Link>
-          <Link to="/popular-tours">Popular Tours</Link>
-          <Link to="/stories">Stories</Link>
-          <Link to="/book-now">Book Now</Link>
+          <Link to="/trips">Trips</Link>
+          <Link to="/about">Gateway</Link>
+          <Link to="/contact">Contact</Link>
         </div>
       </div>
       <div className="right-side">
         <Link to="/">Home</Link>
-        <Link to="/about-gateway">About Gateway</Link>
-        <Link to="/your-benefits">Your Benefits</Link>
-        <Link to="/popular-tours">Popular Tours</Link>
-        <Link to="/stories">Stories</Link>
-        <Link to="/book-now">Book Now</Link>
+        <Link to="/trips">Trips</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
         <button onClick={toggleNavbar}>
           <ReorderIcon />
         </button>
