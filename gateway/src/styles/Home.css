@@ -9,10 +9,12 @@
   background-repeat: no-repeat;
   background-size: cover;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
+  opacity: .70;
 }
 
 .header {
   width: auto;
+  margin-left: 50px;
 }
 
 .header h1 {

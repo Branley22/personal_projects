@@ -5,8 +5,8 @@ import '../styles/Home.css';
 
 const Home = (props) => {
   return (
-    <div className="home">
-      <div className="header" style={{ backgroundImage: `url(${BackgroundImage})` }}>
+    <div className="home" style={{ backgroundImage: `url(${BackgroundImage})` }}>
+      <div className="header">
         <h1>Gateway Trips</h1>
         <p>Relax and get away</p>
         <Link to="/trips">
