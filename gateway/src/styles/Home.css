@@ -14,7 +14,8 @@
 
 .header {
   width: auto;
-  margin-left: 50px;
+  align-self: center;
+  height: 90%;
 }
 
 .header h1 {
@@ -23,19 +24,22 @@
   margin-top: 130px;
   font-size: 45px;
   height: 90px;
-  color: rgb(71, 214, 200);
+  color: black;
   text-transform: uppercase;
+  letter-spacing: 15px;
+  text-decoration: underline;
   
 }
 
 .header p {
-  padding: 0;
+  padding-left: 70px;
   font-size: 25px;
   font-weight: lighter;
-  color: rgb(11, 78, 72);
+  color: black;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 7px;
+  font-style: italic;
 }
 
 .header button {
@@ -50,6 +54,7 @@
   color: white;
   text-decoration: none;
   font-size: 20px;
+  margin-left: 30%;
 }
 
 .header button:hover {

@@ -4,7 +4,8 @@ const Trips = (props) => {
 
   return (
     <div className="trip">
-      <h1>Our Trips</h1>
+      <h1 className="trip-title">Our Trips</h1>
+      <div className="trip-list"></div>
     </div>
   )
 }
