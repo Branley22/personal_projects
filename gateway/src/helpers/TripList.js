@@ -3,7 +3,7 @@ import BoraBora from '../assets/boraboraimg.jpeg';
 import Paris from '../assets/parisimg.jpeg';
 import London from '../assets/londonimg.jpeg';
 import Rome from '../assets/romeimg.jpeg';
-import Barcelona from '../assets/barcelonaimg.jpeg';
+import Barcelona from '../assets/barcelonaimg.jpg';
 
 export const TripList = [
   {
