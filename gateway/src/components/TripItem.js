@@ -8,7 +8,7 @@ const TripItem = (props) => {
     <div className="trip-item">
       <div style={{ backgroundImage: `url(${image})` }}></div>
       <h1>{name}</h1>
-      <p>{price}</p>
+      <p>${price}</p>
     </div>
   )
 }

@@ -36,4 +36,4 @@ export const TripList = [
     image: Barcelona,
     price: 230.99
   },
-]
+];
