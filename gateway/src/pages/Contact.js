@@ -1,5 +1,5 @@
 import React from 'react';
-import VacationLeft from '../assets/vacationleft.png';
+import VacationLeft from '../assets/vacationleft.jpeg';
 import '../styles/Contact.css';
 
 const Contact = (props) => {
@@ -8,7 +8,6 @@ const Contact = (props) => {
   return (
     <div className="contact">
       <div className="left-side" style={{ backgroundImage: `url(${VacationLeft})` }}>
-        nejnevw
       </div>
       <div className="right-side">
        <h1> Contact Us</h1>
