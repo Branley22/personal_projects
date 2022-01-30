@@ -7,7 +7,7 @@ const Contact = (props) => {
 
   return (
     <div className="contact">
-      <div className="left-side" style={{ backgroundImage: `url(${VacationLeft})` }}>
+      <div className="left-side" style={{ backgroundImage: `url(${VacationLeft})`}}>
       </div>
       <div className="right-side">
        <h1> Contact Us</h1>
