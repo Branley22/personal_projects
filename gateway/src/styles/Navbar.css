@@ -32,6 +32,11 @@
   margin: 20px;
 }
 
+.navbar a:hover{
+  color: black;
+
+}
+
 .navbar .right-side button {
   background-color: transparent;
   border: none;
@@ -53,6 +58,7 @@
 
 .navbar #close img {
   display: inherit;
+  border-radius: 60%;
 }
 
 .navbar #open .hidden-links {
