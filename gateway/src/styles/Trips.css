@@ -44,6 +44,10 @@
   background-size: cover;
 }
 
+.trip-item:hover {
+  background-color: rgb(202, 202, 202);
+}
+
 .trip-item h1,
 .trip-item p {
   margin-left: 20px;

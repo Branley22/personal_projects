@@ -7,7 +7,7 @@ const About = (props) => {
 
   return (
     <div className="about">
-      <div className="about-top" style={{ backgroundImage: `url(${AboutImg})` }}>ferkjner</div>
+      <div className="about-top" style={{ backgroundImage: `url(${AboutImg})` }}></div>
       <div className="about-bottom">
         <h1> ABOUT US</h1>
         <p>
