@@ -15,7 +15,8 @@ const Trips = (props) => {
               key={key}
               image={tripItem.image} 
               name={tripItem.name} 
-              price={tripItem.price} 
+              price={tripItem.price}
+              button={tripItem.button} 
             />
           );
         })}

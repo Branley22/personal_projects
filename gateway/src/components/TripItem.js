@@ -9,6 +9,7 @@ const TripItem = (props) => {
       <div style={{ backgroundImage: `url(${image})` }}></div>
       <h1>{name}</h1>
       <p>${price}</p>
+      <button className="trip-item-book">Book now!</button>
     </div>
   )
 }
