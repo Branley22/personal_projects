@@ -20,21 +20,22 @@
   place-items: center;
 }
 
-.trip-item {
+.trip-box {
   /* border-radius: 15px; */
   width: 300px;
   height: 400px;
   margin: 25px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0.2);
+  background-color: transparent;
 }
 
-.trip-item:hover {
+.trip-box:hover {
   box-shadow: 0px 3px 15px rgba(0, 0, 0.5);
   transition: 0.3s ease-in;
   cursor: pointer;
 }
 
-.trip-item div {
+.trip-box div {
   /* border-top-left-radius: 15px;
   border-top-right-radius: 15px; */
   width: 100%;
@@ -44,12 +45,12 @@
   background-size: cover;
 }
 
-.trip-item:hover {
+.trip-box:hover {
   border: 5px solid rgb(32, 60, 97);
 }
 
-.trip-item h1,
-.trip-item p {
+.trip-box h1,
+.trip-box p {
   text-align: center;
 }
 
