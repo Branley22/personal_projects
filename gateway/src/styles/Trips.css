@@ -27,17 +27,51 @@
   margin: 25px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0.2);
   background-color: transparent;
+  perspective: 1000px;
 }
 
-.trip-box:hover {
+/* .trip-box:hover {
   box-shadow: 0px 3px 15px rgba(0, 0, 0.5);
   transition: 0.3s ease-in;
   cursor: pointer;
+  border: 5px solid rgb(32, 60, 97);
+} */
+
+.trip-box-inner {
+  width: 300px;
+  height: 400px;
+  position: relative;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.trip-box:hover .trip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.trip-box-front, .trip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/* .trip-box-front {
+  background-color: tomato;
+  color: black;
+} */
+
+.trip-box-back {
+  background-color: blue;
+  transform: rotateY(180deg);
+  color: white;
 }
 
 .trip-box div {
-  /* border-top-left-radius: 15px;
-  border-top-right-radius: 15px; */
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   width: 100%;
   height: 200px;
   background-position: center;
@@ -45,9 +79,7 @@
   background-size: cover;
 }
 
-.trip-box:hover {
-  border: 5px solid rgb(32, 60, 97);
-}
+
 
 .trip-box h1,
 .trip-box p {
@@ -55,12 +87,12 @@
 }
 
 .trip-item-book {
-  display: inline-block;
+  /* display: inline-block;
   cursor: pointer;
   font-size: 20px;
   padding: 10px;
   margin-left: 90px;
-  border-radius: 20px;
+  border-radius: 20px; */
   text-transform: capitalize;
 }
 
