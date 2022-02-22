@@ -86,7 +86,20 @@
   text-align: center;
 } */
 
-.trip-box h1 {}
+.trip-box h1 {
+  background-color: rgb(44, 183, 238);
+  border-radius: 15px;
+  border: 1px solid black;
+}
+
+.trip-price {
+  color: red;
+  width: 100px;
+  padding: 2px;
+  margin-left: 12rem;
+  margin-top: -21rem;
+  border-radius: 30px;
+}
 
 .trip-item-book {
   /* display: inline-block;

@@ -10,11 +10,11 @@ const TripItem = (props) => {
         <div className="trip-box-front">
           <div style={{ backgroundImage: `url(${image})` }}></div>
             <h1>{name}</h1>
-            <p>${price}</p>
+            <p className="trip-price"> ONLY ${price}</p>
         </div>
-        {/* <button className="trip-item-book">Book now!</button> */}
         <div className="trip-box-back">
           <p>This is the back.</p>
+          <button className="trip-item-book">Book now!</button>
         </div>
       </div>
     </div>
