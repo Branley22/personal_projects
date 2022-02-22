@@ -12,7 +12,7 @@ const TripItem = (props) => {
             <h1>{name}</h1>
             <p>${price}</p>
         </div>
-        <button className="trip-item-book">Book now!</button>
+        {/* <button className="trip-item-book">Book now!</button> */}
         <div className="trip-box-back">
           <p>This is the back.</p>
         </div>
