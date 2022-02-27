@@ -45,7 +45,7 @@
   height: 400px;
   position: relative;
   text-align: center;
-  transition: transform 0.8s;
+  transition: transform .99s;
   transform-style: preserve-3d;
 }
 
@@ -71,17 +71,57 @@
   font-style: italic;
 }
 
-/* .trip-box-front {
-  background-color: tomato;
-  color: black;
-} */
-
 .trip-box-back {
-  background-color: rgb(44, 183, 238);
   opacity: .60;
   transform: rotateY(180deg);
-  color: white;
-  height: 100%;
+  color: black;
+  height: 370px;
+  margin-top: -15px;
+}
+
+.trip-box-back h2 {
+  margin-right: 65px;
+}
+
+.trip-box-review {
+  display: flex;
+  cursor: pointer;
+}
+
+.trip-box-review:hover {
+  color: maroon;
+  font-weight: 600;
+}
+
+.trip-amentites {
+  text-align: left;
+}
+
+.trip-amentites li {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.trip-amentites li svg {
+  font-size: 20px;
+  color: maroon;
+}
+
+.amentites-button {
+  margin-top: 10px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.trip-item-book {
+  display: block;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
 }
 
 .trip-box div {
@@ -92,13 +132,6 @@
   background-size: cover;
   border-radius: 10px;
 }
-
-
-
-/* .trip-box h1,
-.trip-box p {
-  text-align: center;
-} */
 
 .trip-box h1 {
   text-align: left;
@@ -111,7 +144,9 @@
   color: grey;
   font-weight: 100;
   line-height: 0px;
-  display: block;
+  display: flex;
+  justify-content: start;
+  align-items: center;
 }
 
 .trip-box-rating {
@@ -135,7 +170,7 @@
 }
 
 .trip-box-price {
-  color: red;
+  color: maroon;
   text-align: right;
   margin-top: -10px;
 }
