@@ -13,6 +13,7 @@ const Trips = (props) => {
           return (
             <TripItem 
               key={key}
+              numberOfTrips={tripItem.numberOfTrips}
               name={tripItem.name} 
               image={tripItem.image}
               location={tripItem.location}

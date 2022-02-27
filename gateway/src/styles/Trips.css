@@ -61,6 +61,16 @@
   backface-visibility: hidden;
 }
 
+.trip-box-days {
+  color: black;
+  text-align: right;
+  font-weight: 600;
+  margin-top: -5px;
+  font-size: 15px;
+  text-decoration: underline;
+  font-style: italic;
+}
+
 /* .trip-box-front {
   background-color: tomato;
   color: black;
@@ -121,12 +131,13 @@
 
 .trip-box-rating svg {
   font-size: 15px;
-  color: aqua;
+  color: maroon;
 }
 
 .trip-box-price {
   color: red;
   text-align: right;
+  margin-top: -10px;
 }
 
 .trip-item-book {

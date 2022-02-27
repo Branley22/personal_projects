@@ -10,7 +10,7 @@ const TripItem = (props) => {
     <div className="trip-box">
       <div className="trip-box-inner">
         <div className="trip-box-front">
-          <p className="trip-box-days">{numberOfTrips}</p>
+          <p className="trip-box-days">{numberOfTrips} Day Trip</p>
           <div style={{ backgroundImage: `url(${image})` }}></div>
             <h1>{name}</h1>
             <h2>{location}</h2>
@@ -18,10 +18,16 @@ const TripItem = (props) => {
               <p><StarIcon/>{rating}</p>
               <p>{review} reviews</p>
             </div>
-            <p className="trip-box-price"> ONLY ${price}</p>
+            <p className="trip-box-price"> ${price} / night</p>
         </div>
         <div className="trip-box-back">
-          <p>This is the back.</p>
+          <h1>Amentites</h1>
+          <h2>What this trip offers</h2>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
           <button className="trip-item-book">Book now!</button>
         </div>
       </div>
