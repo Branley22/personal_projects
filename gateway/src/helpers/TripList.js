@@ -12,31 +12,46 @@ export const TripList = [
     location: "Hawaii",
     rating: 4.5,
     review: "4,134",
-    price: 129.99,
+    price: 429.99,
   },
   {
     name: "Bora Bora",
     image: BoraBora,
-    price: 245.99
+    location: "French Polynesia",
+    rating: 4.7,
+    review: "5,034",
+    price: 767.99,
   },
   {
-    name: "Paris",
+    name: "The Louvre",
     image: Paris,
-    price: 399.99
+    location: "Paris",
+    rating: 3.4,
+    review: "2,134",
+    price: 629.99,
   },
   {
     name: "London",
     image: London,
-    price: 329.99
+    location: "London",
+    rating: 4.8,
+    review: "5,405",
+    price: 429.99,
   },
   {
-    name: "Rome",
+    name: "Italy",
     image: Rome,
-    price: 199.99
+    location: "Rome",
+    rating: 4.3,
+    review: "3,893",
+    price: 589.99,
   },
   {
     name: "Barcelona",
     image: Barcelona,
-    price: 230.99
+    location: "Spain",
+    rating: 3.9,
+    review: "2,914",
+    price: 359.99,
   },
 ];
