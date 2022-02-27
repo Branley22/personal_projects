@@ -20,7 +20,7 @@ const Trips = (props) => {
             />
           );
         })}
-      </div>
+      </div> 
     </div>
   )
 }
