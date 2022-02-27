@@ -15,7 +15,6 @@ const TripItem = (props) => {
               <p>{rating}</p>
               <p>{review} reviews</p>
             </div>
-            <h3> ONLY ${price}</h3>
         </div>
         <div className="trip-box-back">
           <p>This is the back.</p>

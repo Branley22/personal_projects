@@ -92,19 +92,22 @@
 .trip-box h1 {
   text-align: left;
   margin-top: 10px;
+  display: block;
 }
 
 .trip-box-front h2 {
   text-align: left;
   color: grey;
   font-weight: 100;
-  padding-bottom: 5px;
+  line-height: 0px;
+  display: block;
 }
 
 .trip-box-rating {
   display: flex;
   justify-content: space-evenly;
-  
+  height: 100px;
+
 }
 
 .trip-price {
