@@ -2,7 +2,7 @@ import React from 'react';
 
 const TripItem = (props) => {
 
-  const {image, name, price} = props;
+  const {name, image, location, rating, review, price} = props;
 
   return (
     <div className="trip-box">
@@ -10,7 +10,12 @@ const TripItem = (props) => {
         <div className="trip-box-front">
           <div style={{ backgroundImage: `url(${image})` }}></div>
             <h1>{name}</h1>
-            <p className="trip-price"> ONLY ${price}</p>
+            <h2>{location}</h2>
+            <div className="trip-box-rating">
+              <p>{rating}</p>
+              <p>{review} reviews</p>
+            </div>
+            <h3> ONLY ${price}</h3>
         </div>
         <div className="trip-box-back">
           <p>This is the back.</p>

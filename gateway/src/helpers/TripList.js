@@ -7,9 +7,12 @@ import Barcelona from '../assets/barcelonaimg.jpg';
 
 export const TripList = [
   {
-    name: "Hawaii",
+    name: "Honolulu",
     image: Hawaii,
-    price: 129.99
+    location: "Hawaii",
+    rating: 4.5,
+    review: "4,134",
+    price: 129.99,
   },
   {
     name: "Bora Bora",

@@ -7,14 +7,17 @@ const Trips = (props) => {
 
   return (
     <div className="trip">
-      <h1 className="trip-title">Our Trips</h1>
+      <h1 className="trip-title">Top Picks</h1>
       <div className="trip-list">
         {TripList.map((tripItem, key) => {
           return (
             <TripItem 
               key={key}
-              image={tripItem.image} 
               name={tripItem.name} 
+              image={tripItem.image}
+              location={tripItem.location}
+              rating={tripItem.rating}
+              review={tripItem.review}
               price={tripItem.price}
               button={tripItem.button} 
             />
