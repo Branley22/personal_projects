@@ -30,6 +30,7 @@
   padding: 10px;
   perspective: 1000px;
   border: none;
+  border-radius: 13px;
 }
 
 /* .trip-box:hover {
@@ -114,6 +115,13 @@
 .trip-box-rating p {
   text-align: left;
   margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.trip-box-rating svg {
+  font-size: 15px;
+  color: aqua;
 }
 
 .trip-box-price {

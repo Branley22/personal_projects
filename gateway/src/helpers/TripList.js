@@ -7,6 +7,7 @@ import Barcelona from '../assets/barcelonaimg.jpg';
 
 export const TripList = [
   {
+    numberOfTrips: 4,
     name: "Honolulu",
     image: Hawaii,
     location: "Hawaii",
@@ -15,6 +16,7 @@ export const TripList = [
     price: 429.99,
   },
   {
+    numberOfTrips: "7",
     name: "Bora Bora",
     image: BoraBora,
     location: "French Polynesia",
@@ -23,6 +25,7 @@ export const TripList = [
     price: 767.99,
   },
   {
+    numberOfTrips: "5",
     name: "The Louvre",
     image: Paris,
     location: "Paris",
@@ -31,6 +34,7 @@ export const TripList = [
     price: 629.99,
   },
   {
+    numberOfTrips: "4",
     name: "London",
     image: London,
     location: "London",
@@ -39,6 +43,7 @@ export const TripList = [
     price: 429.99,
   },
   {
+    numberOfTrips: "5",
     name: "Italy",
     image: Rome,
     location: "Rome",
@@ -47,6 +52,7 @@ export const TripList = [
     price: 589.99,
   },
   {
+    numberOfTrips: "3",
     name: "Barcelona",
     image: Barcelona,
     location: "Spain",
