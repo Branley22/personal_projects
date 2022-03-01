@@ -8,7 +8,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header {
@@ -29,7 +28,6 @@
   color: white;
   text-transform: uppercase;
   letter-spacing: 20px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .header p {
@@ -41,7 +39,6 @@
   letter-spacing: 7px;
   font-style: italic;
   margin-left: 15%;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
