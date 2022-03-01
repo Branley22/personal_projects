@@ -12,18 +12,21 @@
 }
 
 .header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
   width: auto;
   align-self: center;
   height: 90%;
+  position: absolute;
 }
 
 .header h1 {
-  justify-content: center;
-  align-items: center;
-  margin-top: 130px;
   font-size: 55px;
   height: 90px;
-  color: black;
+  color: white;
   text-transform: uppercase;
   letter-spacing: 20px;
   font-family:Georgia, 'Times New Roman', Times, serif;
