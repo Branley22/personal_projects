@@ -16,7 +16,7 @@ const Home = (props) => {
       <h1>Getaway Trips</h1>
       <p>Find that special place to relax and get away!</p>
         <Link to="/trips">
-          <button>Schedule Your Trip!</button>
+          <button>Schedule Now</button>
         </Link>
       </div>
     </div>
