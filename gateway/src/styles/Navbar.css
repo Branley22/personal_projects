@@ -1,4 +1,21 @@
 .navbar {
+  background-color: red;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.menu {
+  margin-left: 15px;
+  font-size: 15px;
+  background: none;
+}
+
+.navbar-menu {
+  
+}
+/* .navbar {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -73,7 +90,7 @@
 .navbar #open a {
   width: 70px;
   margin: 5px;
-}
+} */
 
 @media only screen and (max-width: 900px) {
   .navbar .right-side a {
