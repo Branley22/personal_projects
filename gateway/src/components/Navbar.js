@@ -19,7 +19,7 @@ const Navbar = (props) => {
         <ReorderIcon  onClick={showSidebar}/>
       </Link>
     </div>
-    <nav className={sidebar ? "navbar-menu active" : "navbar-menu"}>
+    <nav className={sidebar ? "navbar-menu-active" : "navbar-menu"}>
       <ul className="navbar-items">
         <li className="navbar-toogle">
           <Link to="#" className="menu-bars">
