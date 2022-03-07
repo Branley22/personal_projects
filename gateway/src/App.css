@@ -20,3 +20,9 @@ body {
   font-size: 15px;
 }
 
+.home, .trips, .about, .contact {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+}
+

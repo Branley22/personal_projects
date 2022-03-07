@@ -4,11 +4,15 @@
   display: flex;
   align-items: center;
   justify-content: start;
+  z-index: 10000;
+   position: fixed;
+   top: 0px;
+   width: 200%;
 }
 
 .menu-bars {
-  margin-left: 15px;
-  font-size: 15px;
+  margin-left: 2rem;
+  font-size: 2rem;
   background: none;
 }
 
@@ -29,14 +33,31 @@
   transition: 350ms;
 }
 
-.nav {
+.nav-text {
   display: flex;
   justify-content: start;
   align-items: center;
   list-style: none;
   padding: 8px 0px 8px 16px;
-  color: red;
+  height: 60px;
 }
+
+.nav-text a {
+  width: 95%;
+  height: 100%;
+  text-decoration: none;
+  color: black; 
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  padding: 0px 16px;
+  border-radius: 4px;
+}
+
+.nav-text a:hover {
+  background-color: #1a83ff;
+}
+
 
 .navbar-items {
   width: 100%;

@@ -20,7 +20,7 @@ const Navbar = (props) => {
       </Link>
     </div>
     <nav className={sidebar ? "navbar-menu-active" : "navbar-menu"}>
-      <ul className="navbar-items">
+      <ul className="navbar-items" onClick={showSidebar}>
         <li className="navbar-toogle">
           <Link to="#" className="menu-bars">
             <CloseIcon />
