@@ -22,7 +22,7 @@ body {
 
 .home, .trips, .about, .contact {
   display: flex;
-  height: 90vh;
-  align-items: center;
+  height: 95vh;
+  /* align-items: center; */
 }
 

@@ -1,10 +1,36 @@
 .about {
   width: 100%;
-  height: 90vh;
+  height: 730px;
+  display: flex;
+  background-color: gray;
+  padding-top: 35px;
 }
 
-.about .about-bottom h1 {
-  font-weight: 400;
-  font-size: 70px;
-  color: black;
+.about-left {
+  width: 700px;
+}
+
+.about-right {
+  width: 300px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.about1-pic {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.about2-pic {
+  position: absolute;
+  top: 30px;
+  left: 175px;
+}
+
+.about3-pic {
+  position: absolute;
+  top: 189px;
+  left: 55px;
 }
