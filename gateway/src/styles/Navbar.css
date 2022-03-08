@@ -1,13 +1,13 @@
 .navbar {
-  background-color: red;
+  background-color: transparent;
   height: 80px;
   display: flex;
   align-items: center;
   justify-content: start;
-  z-index: 10000;
-   position: fixed;
-   top: 0px;
-   width: 200%;
+  z-index: 20000;
+  position: fixed;
+  top: 0px;
+  width: 200%;
 }
 
 .menu-bars {
@@ -31,6 +31,7 @@
 .navbar-menu-active {
   left: 0;
   transition: 350ms;
+  z-index: 2000;
 }
 
 .nav-text {
@@ -74,6 +75,10 @@
 
 span {
   margin-left: 15px;
+}
+
+.navbar svg {
+  background: transparent;
 }
 
 
