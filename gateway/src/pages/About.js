@@ -9,17 +9,20 @@ const About = (props) => {
 
   return (
     <div className="about">
+      <h1>Exciting Trips for you!</h1>
+      <div className="about-content">
       <div className="about-left">
-        <h1>Exciting Trips for you!</h1>
         <h3>Your going to wish you stayed another night</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, or incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut. Cupidatat non proident, sunt in culpa.</p>
         <h3>Enojoy the senroies each trip offers</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, or incididunt ut labore et dolore magna</p>
+        <button className="about-more-info"></button>
         </div>
         <div className="about-right">
-          <img class="about1-pic" src={about1} width="200px" height="200px"/>
-          <img class="about2-pic" src={about2} width="200px" height="200px"/>
-          <img class="about3-pic" src={about3} width="200px" height="200px"/>
+          <img class="about1-pic" src={about1} width="300px" height="200px"/>
+          <img class="about2-pic" src={about2} width="300px" height="200px"/>
+          <img class="about3-pic" src={about3} width="300px" height="200px"/>
+        </div>
         </div>
     </div>
   )

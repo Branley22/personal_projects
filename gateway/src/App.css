@@ -21,8 +21,8 @@ body {
 }
 
 .home, .trips, .about, .contact {
-  display: flex;
-  height: 95vh;
+  /* display: flex;
+  height: 95vh; */
   /* align-items: center; */
 }
 
