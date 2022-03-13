@@ -70,5 +70,16 @@
 }
 
 .about3-pic:hover {
-  border: 5px solid aquamarine;
+  outline: 1.5rem solid aquamarine;
+      transform: scale(1.05) translateY(-0.5rem);
+      z-index: 20;
+      transform: scale(0.85);
+      outline-offset: 2rem;
+}
+
+.about1-pic,
+.about2-pic,
+.about3-pic {
+  transition: all .2s;
+  -webkit-box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 40%);
 }
