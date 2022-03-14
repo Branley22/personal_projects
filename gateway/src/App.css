@@ -16,13 +16,15 @@
 
 body {
   margin: 0;
-  padding: 0px;
+  padding: 40px;
   font-size: 15px;
 }
 
-.home, .trips, .about, .contact {
-  /* display: flex;
-  height: 95vh; */
-  /* align-items: center; */
+.home,
+.trip-box,
+.about,
+.contact,
+.footer {
+  border: 1px solid black;
 }
 

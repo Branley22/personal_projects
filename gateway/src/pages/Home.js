@@ -15,7 +15,7 @@ const Home = (props) => {
       <div className="header">
       <h1>Getaway Trips</h1>
       <p>Find that special place to relax and get away!</p>
-        <Link to="/trips">
+        <Link to="/trip">
           <button>Schedule Now</button>
         </Link>
       </div>
