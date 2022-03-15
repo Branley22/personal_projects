@@ -16,15 +16,15 @@
 
 body {
   margin: 0;
-  padding: 40px;
+  padding: 0;
   font-size: 15px;
 }
 
-.home,
+/* .home,
 .trip-box,
 .about,
 .contact,
 .footer {
   border: 1px solid black;
-}
+} */
 

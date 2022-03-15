@@ -1,6 +1,6 @@
 .trip {
   width: 100%;
-  height: auto;
+  height: 140vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,13 +79,10 @@
   margin-top: -15px;
 }
 
-.trip-box-back h2 {
-  margin-right: 65px;
-}
-
 .trip-box-review {
   display: flex;
   cursor: pointer;
+  margin-top: 5px;
 }
 
 .trip-box-review:hover {
@@ -109,8 +106,7 @@
 }
 
 .amentites-button {
-  margin-top: 10px;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
   border-radius: 5px;
   font-size: 15px;
   padding: 5px;
@@ -135,7 +131,6 @@
 
 .trip-box h1 {
   text-align: left;
-  margin-top: 20px;
   display: block;
 }
 
