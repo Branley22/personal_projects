@@ -15,9 +15,9 @@ const Home = (props) => {
       <div className="header">
       <h1>Getaway Trips</h1>
       <p>Find that special place to relax and get away!</p>
-        <Link to="/trip">
+        {/* <Link to="/trips">
           <button>Schedule Now</button>
-        </Link>
+        </Link> */}
       </div>
     </div>
   )
