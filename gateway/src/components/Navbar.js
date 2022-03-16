@@ -8,38 +8,34 @@ import '../styles/Navbar.css';
 
 const Navbar = (props) => {
 
-  const [sidebar, setSidebar] = useState(false);
+  const [openLinks, setOpenLinks] = useState(false);
 
-  const showSidebar = () => setSidebar(!sidebar);
+  const toggleNavbar = () => {
+    setOpenLinks(!openLinks);
+  }
 
   return (
-    <>
     <div className="navbar">
-      <Link to="#" className="menu">
-        <ReorderIcon  onClick={showSidebar}/>
-      </Link>
+      <div className="left-side" id={openLinks ? "open" : "close"}>
+        <img src={Logo} />
+        <div className="hidden-links">
+        <Link to="/">Home</Link>
+        <Link to="/trips">Trips</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
+        </div>
+      </div>
+      <div className="right-side">
+        <Link to="/">Home</Link>
+        <Link to="/trips">Trips</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
+        <button onClick={toggleNavbar}>
+          <ReorderIcon />
+        </button>
+      </div>
     </div>
-    <nav className={sidebar ? "navbar-menu-active" : "navbar-menu"}>
-      <ul className="navbar-items" onClick={showSidebar}>
-        <li className="navbar-toogle">
-          <Link to="#" className="menu-bars">
-            <CloseIcon />
-          </Link>
-        </li>
-        {NavbarData.map((sideItem, index) => {
-          return (
-            <li key={index} className={sideItem.cName}>
-              <Link to={sideItem.path}>
-                {sideItem.icon}
-                <span>{sideItem.title}</span>
-              </Link>
-            </li>
-          )
-        })}
-      </ul>
-    </nav>
-    </>
-  )
+  );
 }
 
 export default Navbar;
