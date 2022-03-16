@@ -13,22 +13,22 @@
 .header {
   font-weight: 800;
   align-self: center;
-  height: 30%;
+  /* height: 30%; */
   position: absolute;
-  margin-right: 90px;
+  /* margin-right: 90px; */
 }
 
 .header h1 {
-  font-size: 80px;
-  height: 90px;
+  font-size: 50px;
+  /* height: 90px; */
   color: white;
   text-transform: uppercase;
   letter-spacing: 15px;
-  /* margin-top: 200px;  */
 }
 
 .header p {
-  font-size: 20px;
+  font-size: 15px;
+  width: 95%;
   font-weight: 400;
   color: black;
   text-transform: uppercase;
@@ -36,27 +36,5 @@
   font-style: italic;
   margin-left: 1%;
   color: white;
-  margin-top: 15px;
-
-}
-
-.header button {
-  border: none;
-  border-radius: 2px;
-  cursor: pointer;
-  justify-content: center;
-  background-color: white;
-  height: 50px;
-  width: 180px;
-  color: black;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: 500;
-  margin-top: 12px;
-}
-
-.header button:hover {
-  background-color: #07090a;
-  cursor: pointer;
-  transition: 0.3s ease-in;
+  margin: 40px 0px;
 }

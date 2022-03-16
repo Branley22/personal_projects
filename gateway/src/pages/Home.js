@@ -13,11 +13,8 @@ const Home = (props) => {
         <source src={BackgroundVideo} type="video/mp4"/>
       </video>
       <div className="header">
-      <h1>Getaway Trips</h1>
-      <p>Find that special place to relax and get away!</p>
-        {/* <Link to="/trips">
-          <button>Schedule Now</button>
-        </Link> */}
+        <h1>Getaway Trips</h1>
+        <p>Find that special place to relax and get away!</p>
       </div>
     </div>
   )
