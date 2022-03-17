@@ -7,13 +7,6 @@
   box-sizing: border-box;
 }
 
-/* .App {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-} */
-
 body {
   font-size: 15px;
   text-align: center;
@@ -23,13 +16,4 @@ html, body {
   max-width: 100%;
   overflow-x: hidden;
 }
-
-/* .home,
-.trip-box,
-.about,
-.contact,
-.footer {
-  align-items: center;
-  text-align: center;
-} */
 

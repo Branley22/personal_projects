@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(221, 220, 220);
+  background-color: rgb(235, 232, 232);
 }
 
 .trip .trip-title {
@@ -18,12 +18,10 @@
   width: 70vw;
   height: auto;
   display: grid;
-  /* grid-template-columns: 1fr 1fr 1fr; */
   place-items: center;
 }
 
 .trip-box {
-  /* border-radius: 15px; */
   width: 280px;
   height: 370px;
   margin: 25px;
@@ -34,13 +32,6 @@
   border-radius: 13px;
   cursor: pointer;
 }
-
-/* .trip-box:hover {
-  box-shadow: 0px 3px 15px rgba(0, 0, 0.5);
-  transition: 0.3s ease-in;
-  cursor: pointer;
-  border: 5px solid rgb(32, 60, 97);
-} */
 
 .trip-box-inner {
   width: 300px;
@@ -173,27 +164,24 @@
 }
 
 .trip-item-book {
-  /* display: inline-block;
-  cursor: pointer;
-  font-size: 20px;
-  padding: 10px;
-  margin-left: 90px;
-  border-radius: 20px; */
   text-transform: capitalize;
 }
 
-/* .trip-item-book:hover {
+.trip-item-book:hover {
   background-color: rgb(202, 202, 202);
 }
 
-@media only screen and (max-width: 1300px) {
-  .item-list {
+@media only screen and (min-width: 768px) {
+  .trip-list {
     grid-template-columns: 1fr 1fr;
+    justify-content: center;
   }
 }
 
-@media only screen and (max-width: 800px) {
-  .trip-item{
-  grid-template-columns: 1rf;
+@media only screen and (min-width: 1024px) {
+  .trip-list {
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
   }
-} */
+}
+

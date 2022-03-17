@@ -1,28 +1,23 @@
 .home {
   width: 100%;
-  /* height: 100%; */
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background: center; */
+  background: center;
   
 }
 
 .header {
   font-weight: 800;
   align-self: center;
-  /* height: 30%; */
   position: absolute;
-  /* margin-right: 90px; */
 }
 
 .header h1 {
   font-size: 50px;
-  /* height: 90px; */
   color: white;
   text-transform: uppercase;
   letter-spacing: 15px;
@@ -43,6 +38,5 @@
 
 video {
   height: 100vh;
-  width: 146vh;
-  object-fit: fill;
+  object-fit: cover;
 }
