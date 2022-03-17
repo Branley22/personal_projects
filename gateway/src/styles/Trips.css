@@ -8,7 +8,7 @@
 }
 
 .trip .trip-title {
-  font-size: 35px;
+  font-size: 30px;
   letter-spacing: 11px;
   text-align: center;
   margin: 30px 30px;
@@ -182,7 +182,7 @@
   text-transform: capitalize;
 }
 
-.trip-item-book:hover {
+/* .trip-item-book:hover {
   background-color: rgb(202, 202, 202);
 }
 
@@ -196,4 +196,4 @@
   .trip-item{
   grid-template-columns: 1rf;
   }
-}
+} */

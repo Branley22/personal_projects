@@ -1,6 +1,5 @@
 .about {
   width: 100%;
-  height: 730px;
   /* display: flex; */
   background-color: rgb(221, 220, 220);
   padding: 30px;
@@ -10,21 +9,24 @@
 }
 
 .about h1 {
-  font-size: 35px;
-  letter-spacing: 11px;
-  text-align: center;
-  margin-bottom: 30px;
+  font-size: 30px;
+    letter-spacing: 11px;
+    text-align: center;
+    margin: 0px 30px;
 }
 
 .about-content {
   display: flex;
   justify-content: space-between;
-  padding: 30px;
+  flex-direction: column;
+  padding: 20px;
+  /* height: 95vh; */
+  /* align-items: center; */
 }
 
-.about-left {
+/* .about-left {
   width: 700px;
-}
+} */
 
 .about-left h3 {
   margin-bottom: 10px;
@@ -32,14 +34,16 @@
 
 .about-left p {
   line-height: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .about-right {
-  padding-right: 60px;
+  padding-right: 100px;
   position: relative;
-  top: 0;
-  left: -95px;
+  bottom: 40px;
+  /* left: -95px; */
+  align-items: center;
+  text-align: center;
 }
 
 .about1-pic {
@@ -49,7 +53,7 @@
 }
 
 .about1-pic:hover {
-  border: 5px solid rgb(22, 204, 22);
+  border: 5px solid rgb(70, 157, 228);
 }
 
 .about2-pic {
@@ -60,7 +64,7 @@
 
 .about2-pic:hover {
   position: absolute;
-  border: 5px solid rgb(136, 179, 235);
+  border: 5px solid rgb(172, 106, 45);
 }
 
 .about3-pic {
@@ -70,16 +74,16 @@
 }
 
 .about3-pic:hover {
-  outline: 1.5rem solid aquamarine;
-      transform: scale(1.05) translateY(-0.5rem);
-      z-index: 20;
-      transform: scale(0.85);
-      outline-offset: 2rem;
+  border: 5px solid rgb(33, 161, 21);
 }
 
 .about1-pic,
 .about2-pic,
 .about3-pic {
   transition: all .2s;
-  -webkit-box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 40%);
+  box-shadow: 0 1.5rem 4rem rgb(0 0 0 / 40%);
+  width: 250px;
+  height: 150px;
+  margin-bottom: 90px;
+  margin-top: 20px;
 }
