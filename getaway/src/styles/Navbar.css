@@ -9,14 +9,14 @@
 
 .navbar .left-side {
   flex: 50%;
-  height: 100%;
+  height: 120%;
   display: flex;
   align-items: center;
-  padding-left: 30px;
 }
 
 .navbar .left-side img {
-  width: 200px;
+  width: 250px;
+  
 }
 
 .navbar .right-side {
@@ -33,7 +33,7 @@
 }
 
 .navbar a:hover{
-  color: red;
+  color: rgb(79, 158, 189);
 
 }
 
