@@ -18,7 +18,7 @@ const TripItem = (props) => {
       <div className="trip-box-inner">
         <div className="trip-box-front">
           <p className="trip-box-days">{numberOfTrips} Day Trip</p>
-          <div style={{ backgroundImage: `url(${image})` }}></div>
+          <div style={{ backgroundImage: `url(${image})`, backgroundPosition:"bottom" }}></div>
             <h1>{name}</h1>
             <h2>{location}<LocationOnIcon/></h2>
             <div className="trip-box-rating">
