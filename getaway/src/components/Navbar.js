@@ -22,6 +22,7 @@ const Navbar = (props) => {
         <Link to="/">Home</Link>
         <Link to="/trips">Trips</Link>
         <Link to="/about">About</Link>
+        <Link to="/stories">Stories</Link>
         <Link to="/contact">Contact</Link>
         </div>
       </div>
@@ -29,6 +30,7 @@ const Navbar = (props) => {
         <Link to="/">Home</Link>
         <Link to="/trips">Trips</Link>
         <Link to="/about">About</Link>
+        <Link to="/stories">Stories</Link>
         <Link to="/contact">Contact</Link>
         <button onClick={toggleNavbar}>
           <ReorderIcon />
