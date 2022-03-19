@@ -1,0 +1,20 @@
+.stories {
+  width: 100%;
+  background-color: rgb(235, 232, 232);
+  padding: 30px;
+  height: auto;
+}
+
+.stories h1 {
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+/* .stories-card1 {
+  background-color: aqua;
+} */
+
+ .stories-content {
+  background-color: white;
+  display: flex;
+}
