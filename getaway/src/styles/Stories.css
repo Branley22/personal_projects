@@ -16,5 +16,9 @@
 
  .stories-content {
   background-color: white;
+  /* display: flex; */
+}
+
+.stories-content-info {
   display: flex;
 }

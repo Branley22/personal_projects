@@ -9,7 +9,6 @@ const Stories = (props) => {
     <div className="stories">
       <h1>Genuine Stories</h1>
         <div className="stories-card1">
-        <h3>I had the best week ever with my husband on our honeymoon</h3>
         <div className="stories-content">
         <h3>I had the best week ever with my husband on our honeymoon</h3>
           <div className="stories-content-info">
