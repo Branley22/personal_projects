@@ -124,4 +124,8 @@
   .about-left p {
     width: 600px;
   }
+  
+  .about {
+    height: 73vh;
+  }
 }

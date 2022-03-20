@@ -12,22 +12,25 @@
 
 .stories-card1 {
   display: flex;
-  padding: 5px;
+  padding: 10px;
   background-color: white;
   margin-bottom: 25px;
   font-size: 13px;
   text-align: start;
+  box-shadow: 0 3rem 6rem rgb(0 0 0 / 10%);
 }
 
 .stories-left {
   flex: 1;
   margin: 0;
+  text-align: center;
 }
 
 .profile-pic {
   border-radius: 50%;
-  width: 150px;
-  height: 150px
+  width: 130px;
+  height: 130px;
+  image-rendering: -webkit-optimize-contrast;
 }
 
 .stories-right {
@@ -41,4 +44,24 @@
 
 .stories-right p {
   width: 105%;
+}
+
+.stories-comment {
+  margin-top: 10px;
+  color: grey;
+}
+
+span {
+  color: grey;
+}
+
+@media only screen and (min-width: 768px) {
+  .stories-right p {
+    width: 100%;
+  }
+
+  .stories-card1 {
+    width: 80%;
+    margin-left: 8rem;
+  }
 }
