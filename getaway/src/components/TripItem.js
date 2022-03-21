@@ -3,11 +3,9 @@ import StarIcon from '@mui/icons-material/Star';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import RestaurantIcon from '@mui/icons-material/Restaurant';
 import WifiIcon from '@mui/icons-material/Wifi';
-import KingBedIcon from '@mui/icons-material/KingBed';
 import ShowerIcon from '@mui/icons-material/Shower';
 import LocalTaxiIcon from '@mui/icons-material/LocalTaxi';
 import AcUnitIcon from '@mui/icons-material/AcUnit';
-import Stories from '../pages/Stories';
 import { Link } from 'react-router-dom';
 
 
@@ -29,9 +27,9 @@ const TripItem = (props) => {
             <p className="trip-box-price"> ${price} / night</p>
         </div>
         <div className="trip-box-back">
-        <p className="trip-box-review">
-          <Link to="/stories">{review} reviews</Link>
-        </p>
+          <p className="trip-box-review">
+            <Link to="/stories">{review} reviews</Link>
+          </p>
           <h1>Amentites</h1>
           <h2>What this trip offers</h2>
           <div className="trip-amentites">

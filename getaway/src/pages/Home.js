@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import BackgroundVideo from '../assets/gateway-home.mp4';
 import '../styles/Home.css';
 

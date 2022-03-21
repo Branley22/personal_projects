@@ -1,19 +1,19 @@
 .contact-container {
-  background-color: black;
+  background-color: rgb(235, 232, 232);
   padding: 10px;
   display: flex;
   justify-content: center;
 }
 
 .contact {
-  width: 100%;
+  width: 90%;
   height: 85vh;
   display: flex;
   background-color: white;
   border-radius: 10px;
 }
 
-.content {
+.contact-content {
   height: 100%;
   flex: 50%;
   display: flex;
