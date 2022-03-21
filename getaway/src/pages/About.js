@@ -14,7 +14,7 @@ const About = (props) => {
         <div className="about-left">
           <h3>Your going to wish you stayed another night</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, or incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut. Cupidatat non proident, sunt in culpa.</p>
-            <h3>Enojoy the senroies each trip offers</h3>
+            <h3>Enjoy the scenery each trip offers</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, or incididunt ut labore et dolore magna</p>
             <button className="about-more-info"></button>
         </div>
