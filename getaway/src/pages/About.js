@@ -1,7 +1,7 @@
 import React from 'react';
-import about1 from '../assets/about1.jpg';
-import about2 from '../assets/about2.jpg';
-import about3 from '../assets/about3.jpg';
+import about1 from '../assets/about1.jpeg';
+import about2 from '../assets/about2.jpeg';
+import about3 from '../assets/about3.jpeg';
 import '../styles/About.css';
 
 const About = (props) => {
