@@ -72,15 +72,17 @@
   margin-top: -15px;
 }
 
-.trip-box-review {
+.trip-box-review a {
   display: flex;
   cursor: pointer;
   margin-top: 5px;
+  text-transform: none;
 }
 
-.trip-box-review:hover {
+.trip-box-review a:hover {
   color: maroon;
   font-weight: 600;
+  text-transform: none;
 }
 
 .trip-amentites {
