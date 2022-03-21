@@ -15,7 +15,7 @@ const Navbar = (props) => {
   return (
     <div className="navbar">
       <div className="left-side" id={openLinks ? "open" : "close"}>
-        <img src={Logo} />
+        <img src={Logo} alt="video of getaway home page"/>
         <div className="hidden-links">
           <Link to="/">Home</Link>
           <Link to="/trips">Trips</Link>

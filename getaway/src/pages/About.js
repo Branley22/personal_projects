@@ -19,9 +19,9 @@ const About = (props) => {
             <button className="about-more-info"></button>
         </div>
         <div className="about-right">
-          <img class="about1-pic" src={about1} width="300px" height="200px"/>
-          <img class="about2-pic" src={about2} width="300px" height="200px"/>
-          <img class="about3-pic" src={about3} width="300px" height="200px"/>
+          <img class="about1-pic" src={about1} width="300px" height="200px" alt="island background"/>
+          <img class="about2-pic" src={about2} width="300px" height="200px" alt="cove background"/>
+          <img class="about3-pic" src={about3} width="300px" height="200px" alt="boat ride background"/>
         </div>
       </div>
     </div>

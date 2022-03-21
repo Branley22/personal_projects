@@ -16,7 +16,7 @@ const Contact = (props) => {
               <label htmlFor="email"> Email:</label>
               <input name="email" placeholder="Enter email address..." type="email"/>
               <div className="contact-dropdown">
-                <label for="adult">Adults:</label>
+                <label htmlfor="adult">Adults:</label>
                 <select id="adult" name="adult">
                   <option value="Orange">0</option>
                   <option value="Orange">1</option>
@@ -24,7 +24,7 @@ const Contact = (props) => {
                   <option value="Orange">3</option>
                   <option value="Orange">4 or more</option>
                 </select>
-                <label for="children">Children:</label>
+                <label htmlfor="children">Children:</label>
                 <select id="children" name="children">
                   <option value="Orange">0</option>
                   <option value="Orange">1</option>

@@ -12,7 +12,7 @@ const Stories = (props) => {
       <h1>Genuine Stories</h1>
         <div className="stories-card1">
           <div className="stories-left">
-            <img class="profile-pic" src={profile1} />
+            <img class="profile-pic" src={profile1} alt="profile of sarah"/>
               <p className="stories-comment">Sarah Cameron</p>
               <span>Jan 23rd, 2017</span>
           </div>
@@ -23,7 +23,7 @@ const Stories = (props) => {
         </div>
         <div className="stories-card1">
           <div className="stories-left">
-            <img class="profile-pic" src={profile2} />
+            <img class="profile-pic" src={profile2} alt="profile of sam"/>
               <p className="stories-comment">Sam Wilson</p>
               <span>Oct 2nd, 2021</span>
           </div>
