@@ -12,7 +12,7 @@ module.exports = {
     })
   },
 
-  fineOneMemorables: (req,res)=> {
+  fineOneMemorable: (req,res)=> {
     Memorable.findOne({_id:req.params.id})
     .then((OneMemorable)=> {
       res.json(OneMemorable)
@@ -23,7 +23,7 @@ module.exports = {
   },
 
   createNewMemorable: (req,res)=> {
-    Memorable.create(req,body)
+    Memorable.create(req.body)
     .then((newMemorable)=> {
       res.json(newMemorable)
     })
@@ -39,5 +39,25 @@ module.exports = {
       req.body,
       {new: true, runValidators: true}
     )
+    .then((updateMemorable)=> {
+      res.json(updateMemorable)
+    })
+    .catch((err)=> {
+      console.log("update memorable failed");
+      res.status(400).json(err)
+    })
+  },
+
+  deleteMemorable: (req,res) => {
+    Memorable.deleteOne(
+      {_id: req.params.id}
+    )
+    .then((deletedMemorable)=> {
+      res.json(deletedMemorable)
+    })
+    .catch((err)=> {
+      console.log("Delete memorable failed");
+      res.status(400).json(err)
+    })
   }
 }
