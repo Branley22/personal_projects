@@ -81,36 +81,6 @@ const Navbar = () => {
             Contact
         </Link></li>        
       </ul>
-
-      {/* social icons */}
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
-        <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
-            <a className="flex justify-between items-center w-full text-gray-300"
-            href="https://www.linkedin.com/in/branley-minaya/">
-              Linkedin <FaLinkedin size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#313131]">
-            <a className="flex justify-between items-center w-full text-gray-300"
-            href="https://github.com/Branley22">
-              Github <FaGithub size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3b8bf3]">
-            <a className="flex justify-between items-center w-full text-gray-300"
-            href="bminaya2@gmail.com">
-              Email <HiOutlineMail size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#8a8989]">
-            <a className="flex justify-between items-center w-full text-gray-300"
-            href="https://docs.google.com/document/d/1gj0QHgwd9rlc_wi2fAqzUt12IYlINozSKu0VvSxIWPQ/edit">
-              Resume <BsFillPersonLinesFill size={30} />
-            </a>
-          </li>
-        </ul>
-      </div>
     </div>
   )
 }
