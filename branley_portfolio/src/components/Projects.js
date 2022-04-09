@@ -16,13 +16,13 @@ const Projects = () => {
 
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                React JS Application Getaway
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/Branley22/Getaway-application">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
                 </a>
               </div>
@@ -33,13 +33,13 @@ const Projects = () => {
 
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                React JS ApplicationWeather
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/Branley22/personal_projects/tree/master/weather-app">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
                 </a>
               </div>
@@ -50,13 +50,13 @@ const Projects = () => {
 
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Full Stack ApplicationBook app
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/Branley22/solo_project">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
                 </a>
               </div>
@@ -67,13 +67,13 @@ const Projects = () => {
 
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Full Stack ApplicationMovie
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/Branley22/mern_group_project">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
                 </a>
               </div>
@@ -84,13 +84,13 @@ const Projects = () => {
 
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                HTML, CSS, JavaScript ApplicationBeatMaker
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/Branley22/personal_projects/tree/master/Beatmaker-project">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
                 </a>
               </div>
@@ -101,13 +101,13 @@ const Projects = () => {
 
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                HTML CSS Application
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/Branley22/personal_projects/tree/master/Techdegree-project-2">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
                 </a>
               </div>
