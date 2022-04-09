@@ -2,8 +2,19 @@ import React from 'react'
 import {FiMail} from "react-icons/fi";
 import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
+import Pdf from "../assets/BranleyMinaya.Resume.pdf";
 
 const Contact = () => {
+
+
+  const ResumeClick = () => {
+    window.open(Pdf);
+  }
+
+  const githubTab = () => {
+    window.open("https://github.com/Branley22");
+  }
+
   return (
     <div name="contact" className="w-full h-screen bg-[#0a192f] flex justify-center items-center p-4">
       <form method="POST" action="https://getform.io/f/0ab6c65e-3e8b-4a2f-a1d7-1f0e3a78f19c" className="flex flex-col max-w-[600px] w-full">
@@ -19,8 +30,8 @@ const Contact = () => {
               </li>
               <li className="flex items-center py-1">
                 <FaGithub size={20}/>
-                <a className="p-1"
-                href="https://github.com/Branley22">Github </a>
+                <a href onClick={githubTab}
+                className="p-1">Github </a>
               </li>
               <li className="flex items-center py-1">
               <FaLinkedin size={20}/>
@@ -29,15 +40,14 @@ const Contact = () => {
               </li>
               <li className="flex items-center py-1">
               <BsFillPersonLinesFill size={20}/>
-                <a className="p-1"
-                href="https://docs.google.com/document/d/1gj0QHgwd9rlc_wi2fAqzUt12IYlINozSKu0VvSxIWPQ/edit">Resume </a>
+                <a href onClick={ResumeClick}  className="p-1">Resume </a>
               </li>
             </ul>
           </div>
         </div>
         <input className=" p-2 text-gray-300" type="text" placeholder="Name" name="name" />
         <input className="my-4 p-2" type="email" placeholder="Email" name="email" />
-        <textarea className=" p-2" name="message" rows="10" placeholder="Message"></textarea>
+        <textarea className=" p-2" name="message" rows="5" placeholder="Message"></textarea>
         <button className="text-white border-2 hover:bg-blue-400 hover:border-blue-400 px-4 py-3 my-8 mx-auto flex items-center">Let's Collaborate</button>
       </form>
   
