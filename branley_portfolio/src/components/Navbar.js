@@ -16,7 +16,9 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <img src={Logo} alt="Logo Image" style={{width: "60px"}} />
+        <Link to="home" smooth={true} duration={500}>
+        <img className="cursor-pointer" src={Logo} alt="Logo Image" style={{width: "60px"}} />
+        </Link> 
       </div>
 
         {/* menu */}
@@ -85,25 +87,25 @@ const Navbar = () => {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a className="flex justify-between items-center w-full text-gray-300"
-            href="/">
+            href="https://www.linkedin.com/in/branley-minaya/">
               Linkedin <FaLinkedin size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#313131]">
             <a className="flex justify-between items-center w-full text-gray-300"
-            href="/">
+            href="https://github.com/Branley22">
               Github <FaGithub size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3b8bf3]">
             <a className="flex justify-between items-center w-full text-gray-300"
-            href="/">
+            href="bminaya2@gmail.com">
               Email <HiOutlineMail size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#8a8989]">
             <a className="flex justify-between items-center w-full text-gray-300"
-            href="/">
+            href="https://docs.google.com/document/d/1gj0QHgwd9rlc_wi2fAqzUt12IYlINozSKu0VvSxIWPQ/edit">
               Resume <BsFillPersonLinesFill size={30} />
             </a>
           </li>
