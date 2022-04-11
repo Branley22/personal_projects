@@ -7,6 +7,12 @@ import Movie from "../assets/movieapp.jpeg";
 import Weather from "../assets/weatherapp.jpeg";
 
 const Projects = () => {
+
+  const openInNewTab = (url) => {
+    const newWindow = window.open(url, '_blank', 'noopener,noreferrer')
+    if (newWindow) newWindow.opener = null
+  }
+
   return (
     <div name="projects" className="w-full pt-16 md:h-screen text-gray-300 bg-[#0a192f]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
@@ -24,10 +30,11 @@ const Projects = () => {
                 React JS Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://getawaytrips.netlify.app/">
+                <a href onClick={()=> openInNewTab("https://getawaytrips.netlify.app/")}>
+                
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Live Site</button>
                 </a>
-                <a href="https://github.com/Branley22/Getaway-application">
+                <a href onClick={()=> openInNewTab("https://github.com/Branley22/Getaway-application")}>
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
                 </a>
               </div>
@@ -41,10 +48,10 @@ const Projects = () => {
               FullStack Application
               </span>
               <div className="pt-8 text-center">
-                <a href="http://ec2-18-118-45-218.us-east-2.compute.amazonaws.com/">
+                <a href onClick={()=> openInNewTab("http://ec2-18-118-45-218.us-east-2.compute.amazonaws.com/")}>
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Live Site</button>
                 </a>
-                <a href="https://github.com/Branley22/solo_project">
+                <a href onClick={()=> openInNewTab("https://github.com/Branley22/solo_project")}>
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
                 </a>
               </div>
@@ -58,10 +65,10 @@ const Projects = () => {
               React JS Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://weatherapp9.netlify.app">
+                <a href onClick={()=> openInNewTab("https://weatherapp9.netlify.app")}>
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Live Site</button>
                 </a>
-                <a href="https://github.com/Branley22/personal_projects/tree/master/weather-app">
+                <a href onClick={()=> openInNewTab("https://github.com/Branley22/personal_projects/tree/master/weather-app")}>
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
                 </a>
               </div>
@@ -75,10 +82,10 @@ const Projects = () => {
               Javascript Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://beatmaker9.netlify.app">
+                <a href onClick={()=> openInNewTab("https://beatmaker9.netlify.app")}>
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Live Site</button>
                 </a>
-                <a href="https://github.com/Branley22/personal_projects/tree/master/Beatmaker-project">
+                <a href onClick={()=> openInNewTab("https://github.com/Branley22/personal_projects/tree/master/Beatmaker-project")}>
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
                 </a>
               </div>
@@ -92,10 +99,10 @@ const Projects = () => {
                 FullStack Application
               </span>
               <div className="pt-8 text-center">
-                <a href="http://ec2-3-141-5-143.us-east-2.compute.amazonaws.com/">
+                <a href onClick={()=> openInNewTab("http://ec2-3-141-5-143.us-east-2.compute.amazonaws.com/")}>
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Live Site</button>
                 </a>
-                <a href="https://github.com/Branley22/mern_group_project">
+                <a href onClick={()=> openInNewTab("https://github.com/Branley22/mern_group_project")}>
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
                 </a>
               </div>
@@ -106,13 +113,13 @@ const Projects = () => {
 
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                HTML/CSS Application
+                HTML CSS Application
               </span>
               <div className="pt-8 text-center">
-                <a href="https://mockup2app.netlify.app">
+                <a href onClick={()=> openInNewTab("https://mockup2app.netlify.app")}>
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Live Site</button>
                 </a>
-                <a href="https://github.com/Branley22/personal_projects/tree/master/Techdegree-project-2">
+                <a href onClick={()=> openInNewTab("https://github.com/Branley22/personal_projects/tree/master/Techdegree-project-2")}>
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
                 </a>
               </div>
