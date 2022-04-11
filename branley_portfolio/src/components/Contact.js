@@ -1,6 +1,6 @@
 import React from 'react'
 import {FiMail} from "react-icons/fi";
-import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa';
+import {FaGithub, FaLinkedin} from 'react-icons/fa';
 import {BsFillPersonLinesFill} from 'react-icons/bs';
 import Pdf from "../assets/BranleyMinaya.Resume.pdf";
 
