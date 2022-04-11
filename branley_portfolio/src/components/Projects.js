@@ -1,5 +1,4 @@
 import React from 'react'
-import WorkImg from "../assets/workImg.jpeg";
 import Beatmaker from "../assets/beatmaker.jpeg";
 import Getaway from "../assets/getawayapp.jpeg";
 import Goodreads from "../assets/goodreads.jpeg";
@@ -60,7 +59,7 @@ const Projects = () => {
               </span>
               <div className="pt-8 text-center">
                 <a href="https://weatherapp9.netlify.app">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Live Site</button>
                 </a>
                 <a href="https://github.com/Branley22/personal_projects/tree/master/weather-app">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
@@ -77,7 +76,7 @@ const Projects = () => {
               </span>
               <div className="pt-8 text-center">
                 <a href="https://beatmaker9.netlify.app">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Live Site</button>
                 </a>
                 <a href="https://github.com/Branley22/personal_projects/tree/master/Beatmaker-project">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
@@ -94,7 +93,7 @@ const Projects = () => {
               </span>
               <div className="pt-8 text-center">
                 <a href="http://ec2-3-141-5-143.us-east-2.compute.amazonaws.com/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Live Site</button>
                 </a>
                 <a href="https://github.com/Branley22/mern_group_project">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
@@ -111,7 +110,7 @@ const Projects = () => {
               </span>
               <div className="pt-8 text-center">
                 <a href="https://mockup2app.netlify.app">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Live Site</button>
                 </a>
                 <a href="https://github.com/Branley22/personal_projects/tree/master/Techdegree-project-2">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
