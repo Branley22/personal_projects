@@ -1,10 +1,10 @@
-import { AcUnit, AcUnitOutlined } from "@material-ui/icons"
+import Navbar from "../components/navbar/Navbar"
 import "./Home.scss"
 
 const Home = () => {
   return (
     <div className="home">
-      <AcUnit />
+      <Navbar />
     </div>
   )
 }
