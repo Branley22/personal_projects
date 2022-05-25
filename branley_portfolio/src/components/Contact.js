@@ -1,7 +1,7 @@
 import React from 'react'
-import {FiMail} from "react-icons/fi";
-import {FaGithub, FaLinkedin} from 'react-icons/fa';
-import {BsFillPersonLinesFill} from 'react-icons/bs';
+import { FiMail } from "react-icons/fi";
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Pdf from "../assets/BranleyMinaya.Resume.pdf";
 
 const Contact = () => {
@@ -25,28 +25,28 @@ const Contact = () => {
           <div className="items-center text-gray-300">
             <ul>
               <li className="flex items-center py-1">
-                <FiMail size={20}/>
+                <FiMail size={20} />
                 <a className="p-1 hover:text-blue-400"
-                href="mailto:bminaya2@gmail.com">
-                Email</a>
+                  href="mailto:bminaya2@gmail.com">
+                  Email</a>
               </li>
               <li className="flex items-center py-1">
-                <FaGithub size={20}/>
+                <FaGithub size={20} />
                 <a className="p-1 hover:text-blue-400"
-                href onClick={()=> openInNewTab("https://github.com/Branley22")}>
-                Github </a>
+                  href onClick={() => openInNewTab("https://github.com/Branley22")}>
+                  Github </a>
               </li>
               <li className="flex items-center py-1">
-                <FaLinkedin size={20}/>
+                <FaLinkedin size={20} />
                 <a className="p-1 hover:text-blue-400"
-                href onClick={()=> openInNewTab("https://www.linkedin.com/in/branley-minaya/")}>
-                Linkedin </a>
+                  href onClick={() => openInNewTab("https://www.linkedin.com/in/branley-minaya/")}>
+                  Linkedin </a>
               </li>
               <li className="flex items-center py-1">
-                <BsFillPersonLinesFill size={20}/>
-                <a href onClick={ResumeClick} 
-                className="p-1 hover:text-blue-400">
-                Resume </a>
+                <BsFillPersonLinesFill size={20} />
+                <a href onClick={ResumeClick}
+                  className="p-1 hover:text-blue-400">
+                  Resume </a>
               </li>
             </ul>
           </div>
@@ -56,7 +56,7 @@ const Contact = () => {
         <textarea className=" p-2" name="message" rows="5" placeholder="Message:"></textarea>
         <button className="text-white border-2 hover:bg-blue-400 hover:border-blue-400 px-4 py-3 my-8 mx-auto flex items-center">Let's Collaborate</button>
       </form>
-  
+
     </div>
   )
 }
